@@ -1,11 +1,9 @@
 <?php
 
 try{
-    $pdo = new PDO('mysql:host=us-cdbr-east-02.cleardb.com;dbname=heroku_d30f5750dcaa00c','b3db54c600f352','45b0b4df');
+    $pdo = new PDO('mysql:host=x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=nskcd7ez24sy0di','ai0vr6bo086by6zj','n6vsvmnxyei4uueo');
     //echo 'Connection Successfull';
 }catch(PDOException $error){
     echo $error->getmessage();
 }
-
-
 ?>
